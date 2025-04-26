@@ -21,8 +21,7 @@ spec = do
         let dependingPackage = DependingPackage{
           dpName = pkg,
           dpVersion = version,
-          dpMaintainers = maintainers,
-          dpGithubPings = S.fromList ["jsl", "fl", "fm"]
+          dpMaintainers = maintainers
         }
         let depBounds = DepBounds{
           dbRange = noVersion,
